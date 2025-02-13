@@ -1,11 +1,11 @@
 {
-  "name": "postcss-responsive-value",
-  "version": "0.0.0",
+  "name": "postcss-responsive-css-values",
+  "version": "1.0.0",
   "description": "This PostCSS plugin provides you with a function that allows you to use dynamic values instead of static CSS values, which are automatically reduced from a defined breakpoint.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thedroelfi/postcss-responsive-value.git"
+    "url": "git+https://github.com/thedroelfi/postcss-responsive-css-values.git"
   },
   "keywords": [
     "CSS",
@@ -16,9 +16,9 @@
   "author": "The Droelfi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thedroelfi/postcss-responsive-value/issues"
+    "url": "https://github.com/thedroelfi/postcss-responsive-css-values/issues"
   },
-  "homepage": "https://github.com/thedroelfi/postcss-responsive-value#readme",
+  "homepage": "https://github.com/thedroelfi/postcss-responsive-css-values#readme",
   "dependencies": {
     "postcss": "^8.5.2"
   }
