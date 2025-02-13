@@ -26,14 +26,14 @@ The function can of course be used on all CSS specifications that can work with 
 
 ## Installation
 To use the plugin, it can either be installed via npm or the `index.js` must be inserted into the development environment.
-If the script is inserted manually, the `index.js` script must be renamed to `postcss-responsive-value.js`.
+If the script is inserted manually, the `index.js` script must be renamed to `postcss-responsive-css-values.js`.
 
 ### PostCSS registration
 In order for the plugin to be used in the PostCSS build process, it must be registered in the PostCSS config file.
 ```js
 export default {
     plugins: {
-        "postcss-responsive-value": {},
+        "postcss-responsive-css-values": {},
     }
 }
 ```
@@ -59,7 +59,7 @@ You can also define the default breakpoint yourself. This must be specified in t
 ```js
 export default {
     plugins: {
-        'postcss-responsive-value': { breakpoint: '1920' },
+        'postcss-responsive-css-values': { breakpoint: '1920' },
     }
 }
 ```
