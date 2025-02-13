@@ -1,4 +1,4 @@
-# PostCSS Responsive Values
+# PostCSS Responsive CSS Values
 
 This PostCSS plugin provides you with the `res-val()` function, which allows you to use dynamic values instead of static CSS values that are automatically reduced from a certain breakpoint.
 
